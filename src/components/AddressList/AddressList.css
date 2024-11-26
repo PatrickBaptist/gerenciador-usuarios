@@ -1,0 +1,82 @@
+.form-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .content-list {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+  }
+  
+  .content-list li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+  
+  .content-list span {
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-delete{
+    padding: 10px;
+    background-color: #c11f1f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+
+  .btn-delete:hover {
+    background-color: #a00505;
+  }
+  
+  @media (max-width: 768px) {
+    .content-list {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .content-list li {
+      font-size: 12px;
+    }
+  
+    button {
+      font-size: 12px;
+    }
+  }

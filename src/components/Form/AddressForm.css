@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+
+  .error {
+    color: red;
+    list-style: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
+  
+  @media (max-width: 1200px) {
+    form {
+      width: 60%;
+    }
+  }
+
+    @media (max-width: 600px) {
+      form {
+        width: 95%;
+        padding: 10px;
+        margin: 10px;
+      }
+  }
